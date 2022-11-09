@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <link rel="icon" href="google1.png" type="imge/phg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Newsreader', serif;
+            font-weight: 300;
+            letter-spacing: 2px;
+            word-spacing: 6px;
+          
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        input {
+            padding: 0px 10px;
+            text-align: center;
+            border: 0;
+            border-bottom: 1px solid rgb(0, 0, 0);
+            width: 300px;
+            font-size: 30px;
+            color: rgb(0, 0, 0);
+        }
+
+        input:focus-visible {
+            outline-width: 0;
+
+        }
+
+        #startMeny {
+           
+            display: flex;
+            
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #startMeny>h1 {
+            margin: 300px;
+            margin-bottom: 0px;
+            font-size: 40px;
+        }
+
+        #startMeny>h2 {
+            font-size: 30px;
+            margin: 50px;
+            position: relative;
+            text-align: center;
+            width: 500px;
+        }
+
+        #startMeny>h2::after {
+            font-size: 14px;
+            content: "* in format 'yyyy-mm-dd'";
+            position: absolute;
+            top: 40px;
+            left: 250px;
+            color: rgb(72, 72, 72);
+
+
+        }
+
+        #timer {
+           
+            width: 100%;
+            height: 100%;
+            display: flex;
+           
+            align-items: center;
+        }
+
+        #time {
+           
+            margin-left: 22%;
+
+            align-items: center;
+            font-size: 600%;
+        }
+        .num{
+            margin: 3px;
+            color: rgb(56, 56, 56);
+        }
+        .num.n1,.num.n2{
+           
+            font-size: 400%;
+        }
+        
+        .n3 {
+            
+            color: rgb(72, 72, 72);
+        }
+
+        .n4 {
+            color: rgb(255, 0, 0);
+
+        }
+
+        .n5 {
+
+            color: orange;
+        }
+
+        .n6 {
+            color: yellow;
+
+        }
+
+        .n7 {
+            color: rgb(69, 207, 0);
+        }
+
+        .n8{
+            color: rgb(0, 171, 228);
+
+        }
+
+        .n9 {
+
+            color: rgb(42, 0, 228);
+        }
+
+        .n10 {
+
+            color: rgb(95, 9, 223);
+        }
+
+        .n11 {
+
+            color: rgb(95, 9, 223);
+        }
+
+        .n12 {
+
+            color: rgb(95, 9, 223);
+        }
+
+        .n13 {
+
+            color: rgb(95, 9, 223);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="startMeny">
+        <h1>Hello</h1>
+        <h2>Enter your birthday</h2>
+
+        <input id="enterBirthdate" type="text">
+    </div>
+
+    <div id="timer">
+        <h1 id="time"></h1>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
