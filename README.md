@@ -7,6 +7,6 @@ I sorted everything and created a separate repository
 
 Git-hub pages -  https://alexreshetnik.github.io/Extensions_Age_go/
 
-<a href="https://alexreshetnik.github.io/Calendar_TODO/lookme.mp4" target="_blank">Demo video</a>
+<a href="https://alexreshetnik.github.io/Extensions_Age_go/lookme.mp4" target="_blank">Demo video</a>
 
 An interesting and simple extension for chrome whose task is to set the main page as a count of the number of years and % how many are left until the birthday
